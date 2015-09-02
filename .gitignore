@@ -1,0 +1,19 @@
+# Node
+npm-debug.log
+node_modules/
+
+# Bower
+bower_components/
+
+# Compass
+.sass-cache/
+.dev
+
+# Compiled files
+assets/css
+assets/js/*.js
+assets/js/*.map
+
+# CodeKit
+config.codekit
+config.rb

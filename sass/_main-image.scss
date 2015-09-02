@@ -1,0 +1,114 @@
+.main-image {
+	margin: .5em auto;
+	position: relative;
+	z-index: 1;
+	@media #{$information-medium} {
+		margin: 1em 0;
+	}
+	@include micro-clearfix;
+	&__maincolor,
+	&__minimalsecondcolor,
+	&__modernsecondcolor,
+	&__modernaccent,
+	&__originalsecondcolor,
+	&__originalaccent,
+	&__logo,
+	&__highlights,
+	&__components {
+		height: auto;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		path {
+			fill: $black;
+		}
+		&[value="armygreen"] {
+			path {
+				fill: $armygreen;
+			}
+		}
+		&[value="black"] {
+			path {
+				fill: $black;
+			}
+		}
+		&[value="classicpink"] {
+			path {
+				fill: $classicpink;
+			}
+		}
+		&[value="darknavy"] {
+			path {
+				fill: $darknavy;
+			}
+		}
+		&[value="deepred"] {
+			path {
+				fill: $deepred;
+			}
+		}
+		&[value="gullgray"] {
+			path {
+				fill: $gullgray;
+			}
+		}
+		&[value="italianred"] {
+			path {
+				fill: $italianred;
+			}
+		}
+		&[value="powderblue"] {
+			path {
+				fill: $powderblue;
+			}
+		}
+		&[value="ritteblue"] {
+			path {
+				fill: $ritteblue;
+			}
+		}
+		&[value="skyblue"] {
+			path {
+				fill: $skyblue;
+			}
+		}
+		&[value="slategray"] {
+			path {
+				fill: $slategray;
+			}
+		}
+		&[value="white"] {
+			path {
+				fill: $white;
+			}
+		}
+	}
+	&__maincolor {
+		z-index: 11;
+	}
+	&__minimalsecondcolor {
+		z-index: 12;
+	}
+	&__originalsecondcolor {
+		z-index: 13;
+	}
+	&__originalaccent {
+		z-index: 14;
+	}
+	&__modernsecondcolor {
+		z-index: 15;
+	}
+	&__modernaccent {
+		z-index: 16;
+	}
+	&__logo {
+		z-index: 17;
+	}
+	&__highlights {
+		z-index: 18;
+	}
+	&__components {
+		z-index: 19;
+	}
+}

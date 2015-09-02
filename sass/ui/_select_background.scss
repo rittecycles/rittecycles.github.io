@@ -1,0 +1,33 @@
+.change-background-wrap {
+	display: none;
+	padding: 1em 0;
+	&.is-showing-change-background-select {
+		display: block;
+	}
+}
+.change-background {
+	background: rgba(255, 255, 255, 0.5);
+  	border: 1px solid rgba(255, 255, 255, 0.65);
+  	font-size: .8em;
+  	padding: .5em 2em .5em .5em;
+  	@include border-radius(0);
+  	@include appearance(none);
+  	&__label {
+  		display: block;
+  		font-family: $main-font;
+		font-size: .8em;
+		font-weight: $light-weight;
+		margin-bottom: .5em;
+  	}
+  	&__toggle {
+  		position: relative;
+  		&:after {
+  			content: '\f078';
+  			font-family: $fontawesome;
+  			font-size: .8em;
+  			position: absolute;
+  			right: .5em;
+  			top: .2em;
+  		}
+  	}
+}

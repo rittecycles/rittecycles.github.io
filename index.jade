@@ -1,0 +1,74 @@
+doctype html
+html(lang="en")
+	head
+		meta(name="viewport", content="width=device-width, initial-scale=1")
+		include ./includes/meta.html
+		link(rel="stylesheet", type="text/css", href="css/ritte-ace.css")
+	body#page.page
+		.button-container
+			button#button-up.button__up
+		section#slide-1.slide.slide--1
+			img#slide-one-bg(name="slide-one-bg" src="http://jeffry.in/ritte-ace/assets/images/SlideOneBkg-wgreen-01.jpg")
+			header.page__header
+				h1.page__headline
+					include ./includes/ritte-logo.html
+					|Make your own luck with the Ace.
+					button#start.button__start Start Building Your Ace
+		section#slide-2.slide.slide--2(style)
+			.slide__background.is-opaque
+			.slide__container
+				//- button.button__background Hide Image
+				article.slide__content
+					h2.slide__title Let's Paint!
+					p.slide__summary Raw carbon is fantastic, but sometimes you need a little color in your life. Especially a color that's unique to you and allows you to express yourself. And there's no better frame out there than the Ace to make that statement. Choice can be overwhelming, but we'll walk you through it. Try out some different combinations and go with what makes you feel all flittery fluttery in your heart area. We've preselected colors and designs that go really well together, so it will be nearly impossible to make your Ace ugly.
+					include ./includes/ace-ui.html
+				include ./includes/bike-1.jade
+		section#slide-3.slide.slide--3(style)
+			.slide__background.is-opaque
+			.slide__container
+				//- button.button__background Hide Image
+				article.slide__content
+					h2.slide__title You've choosen <span id="maincolor-color" name="maincolor" value=""></span>
+					p#main-color-summary.slide__summary(name="maincolor", value="")
+					include ./includes/ace-ui.html
+				include ./includes/bike-3.jade
+		section#slide-4.slide.slide--4(style)
+			.slide__background.is-opaque
+			.slide__container
+				//- button.button__background Hide Image
+				article.slide__content
+					h2.slide__title You've choosen <span id="design" name="choosedesign" value=""></span>
+					p#design-summary.slide__summary(name="choosedesign", value="")
+					include ./includes/ace-ui.html
+					button#view-bike.view-bike View Your Complete Bike
+				include ./includes/bike-2.jade
+		section#slide-5.slide.slide--5(style)
+			.slide__background.is-opaque
+			.slide__container
+				//- button.button__background Hide Image
+				include ./includes/bike-4.jade
+				article.slide__content
+					h2.slide__title All done! Ready for the next step?
+					p.mail-to-wrap
+						a.mail-to(data-share-url="mailto:?subject=My%20Custom%20Ritte%20Ace&body=My%20bike%20link%20") Email design
+						| or
+						a.mail-to(data-share-url="mailto:painting@rittecycles.com?subject=My%20Custom%20Ritte%20Ace&body=My%20bike%20link%20") Send design to us
+		//- section#slide-6.slide.slide--6
+		//- 	.slide__background
+		//- 	.container
+		//- 		.page-share
+		//- 			a#page-share-twitter.page-share--twitter(data-share-text="Share your ace", data-share-via="@ritteracing", data-hashtags="#ritteace", data-href="https://twitter.com/share?url=")
+		//- 				|twitter
+		//- 			a#page-share-facebook.page-share--facebook(data-href="http://www.facebook.com/sharer.php?u=")
+		//- 				|facebook
+		//- 		form#share-form.share-form
+		//- 			.share-form__field
+		//- 				label.share-form__label Name
+		//- 				input.share-form__input--name(name="name", placeholder="Name", type="text")
+		//- 			.share-form__field
+		//- 				label.share-form__label Email
+		//- 				input.share-form-input--email(name="email", placeholder="Enter your email address", type="text")
+		//- 			.share-form__field
+		//- 				textarea#share-form-content.share-form__input--content(name="content")
+		//- 			input.share-form__input--submit(type="submit", value="Submit")
+		script(src="js/min/ace-min.js")

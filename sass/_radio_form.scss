@@ -1,0 +1,164 @@
+.select-wrap {
+  margin-top: .25em;
+  max-height: 283px;
+  @include micro-clearfix;
+  @media #{$information-medium} {
+    margin-top: 1em;
+    max-width: 375px;
+  }
+}
+.select-option-wrap {
+  position: relative;
+  width: 100%;
+  @media #{$information-medium} {
+    float: left;
+    width: auto;
+    &:first-of-type {
+      margin-left: 0;
+    }
+  }
+}
+.select-show {
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.65);
+  border-right-width: 0;
+  display: block;
+  font-size: .8em;
+  margin: 0;
+  outline: none;
+  padding: .5em 0;
+  width: 100%;
+  .select-option-wrap:last-of-type & {
+    border-right-width: 1px;
+  }
+  .is-disabled & {
+    background: $grey-light;
+    color: $grey-medium;
+  }
+  @media #{$information-medium} {
+    padding: .5em;
+  }
+}
+.select-form {
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid white;
+  display: none;
+  height: 7.3em;
+  overflow-y: auto;
+  padding: .2em;
+  width: 100%;
+  z-index: 2;
+  @media #{$information-medium} {
+    left: 0;
+    min-width: 250px;
+    position: absolute;
+  }
+  &.is-visible {
+    display: block;
+  }
+  .select-option-wrap:nth-of-type(n + 4) & {
+    left: auto;
+    right: 0;
+  }
+}
+.select-option {
+  float: left;
+  padding: .25em 2em .5em .25em;
+  width: 100%;
+}
+.select-option-label,
+.select-option-input {
+  float: left;
+}
+.select-option-input {
+  background-color: transparent;
+  border-color: transparent;
+  color: transparent;
+  height: 1.5em;
+  margin: 0;
+  opacity: 0;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  width: 1.5em;
+  z-index: 12;
+  & + .select-option-label:before,
+  & + .select-option-label:after {
+    position: absolute;
+    display: block;
+    height: 1.5em;
+    top: 50%;
+    @include transform(translateY(-50%));
+    width: 1.5em;
+  }
+  & + .select-option-label:before {
+    border: 1px solid white;
+    content: ' ';
+    left: -1.9em;
+    z-index: 1;
+
+  }
+  &.checked + .select-option-label:after {
+    color: white;
+    content: '\f00c';
+    font-family: $fontawesome;
+    font-size: 1.5em;
+    margin-top: .125em;
+    left: -1.2em;
+    z-index: 22;
+  }
+  //design colors: start
+  &[value="armygreen"] + .select-option-label:before {
+    background-color: $armygreen;
+  }
+  &[value="black"] + .select-option-label:before {
+    background-color: $black;
+  }
+  &[value="classicpink"] + .select-option-label:before {
+    background-color: $classicpink;
+  }
+  &[value="darknavy"] + .select-option-label:before {
+    background-color: $darknavy;
+  }
+  &[value="deepred"] + .select-option-label:before {
+    background-color: $deepred;
+  }
+  &[value="gullgray"] + .select-option-label:before {
+    background-color: $gullgray;
+  }
+  &[value="italianred"] + .select-option-label:before {
+    background-color: $italianred;
+  }
+  &[value="ritteblue"] + .select-option-label:before {
+    background-color: $ritteblue;
+  }
+  &[value="powderblue"] + .select-option-label:before {
+    background-color: $powderblue;
+  }
+  &[value="slategray"] + .select-option-label:before {
+    background-color: $slategray;
+  }
+  &[value="white"] + .select-option-label {
+    &:after {
+      color: black !important;
+    }
+    &:before {
+      background-color: white;
+    }
+  }
+}
+.select-option-label {
+  font: .8em/24px sans-serif;
+  line-height: 24px;
+  padding-left: .4em;
+  position: relative;
+  vertical-align: middle;
+}
+.select-option-wrap[data-name="choosedesign"] {
+  .select-option-input + .select-option-label:before {
+    background-color: white;
+  }
+  .select-option-input.checked + .select-option-label:after {
+    color: black;
+  }
+}

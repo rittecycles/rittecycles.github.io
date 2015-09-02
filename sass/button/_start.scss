@@ -1,0 +1,19 @@
+.button__start {
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 0;
+  color: white;
+  display: block;
+  font-family: $main-font;
+  font-size: .8em;
+  font-weight: $bold-weight;
+  margin: 1em;
+  outline: 0;
+  padding: 1em;
+  text-transform: uppercase;
+  &:hover {
+    @include box-shadow(0px 0px 10px 0px rgba(255,255,255,.5));
+  }
+  @media #{$information-medium} {
+	margin: 1em auto 0;
+  }
+}

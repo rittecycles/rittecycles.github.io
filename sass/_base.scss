@@ -1,0 +1,69 @@
+// fonts
+$main-font: 'proxima-nova', 'Helvetica Neue Light', 'Helvetica Neue', helvetica, arial, sans-serif;
+$helvetica: 'Helvetica Neue Light', 'Helvetica Neue', helvetica, arial, sans-serif;
+$fontawesome: FontAwesome;
+$light-weight: 100;
+$semi-light-weight: 300;
+$medium-weight: 500;
+$semi-bold-weight: 700;
+$bold-weight: 900;
+
+// colors
+// greys
+$grey-medium: #ccc;
+$grey-light: #eee;
+// bike colors
+$armygreen: rgb(105, 129, 58);
+$black: black;
+$classicpink: rgb(233, 190, 219);
+$darknavy: rgb(0, 37, 61);
+$deepred: rgb(123, 47, 62);
+$gullgray: rgb(195, 197, 200);
+$italianred: rgb(235, 0, 40);
+$powderblue: rgb(91, 179, 228);
+$ritteblue: rgb(164, 197, 210);
+$skyblue: rgb(97, 129, 228);
+$slategray: rgb(92, 102, 111);
+$tooltip: rgb(126, 178, 225);
+$white: white;
+//social colors
+$facebook: #3B5998;
+$twitter: #55acee;
+
+//breakpoints
+$medium: 769px;
+$small: $medium - 1px; //for max-width query
+$large: 1024px;
+
+//queries
+$information-small: "only screen and (max-width : #{$small})"; //this is used to hide pad git stuff margin
+$information-medium: "only screen and (min-width : #{$medium})";
+$information-large: "only screen and (min-width : #{$large})";
+
+@mixin micro-clearfix {
+	&:before,
+	&:after {
+		display: table;
+		content: ' ';
+	}
+	&:after {
+		clear: both;
+	}
+}
+
+* {
+	font-family: $main-font;
+	font-size: 1em;
+	box-sizing: border-box;
+}
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+body {
+	overflow-x: hidden;
+}
+[data-hidden="hidden"] {
+	display: none;
+}
