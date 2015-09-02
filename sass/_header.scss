@@ -1,0 +1,23 @@
+.page__header {
+	left: 50%;
+	position: absolute;
+	@include transform(translate(-50%, -50%));
+	top: 50%;
+	text-align: center;
+	z-index: 2;
+}
+.page__headline {
+	background-color: rgba(255, 255, 255, 0.4);
+	color: black;
+	font-family: $main-font;
+	font-size: 1.5em;
+	font-weight: $light-weight;
+	max-width: 450px;
+	margin: 0 auto;
+	padding: 1em .2em;
+	text-align: center;
+	text-transform: uppercase;
+	@media #{$information-medium} {
+		font-size: 2em;
+	}
+}

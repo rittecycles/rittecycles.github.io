@@ -1,0 +1,48 @@
+// The PGM tooltip is currently positioned above the target element
+// The 'visibility' rule is used instead of 'display' in the event that we use 'css transitions' in the future
+.tooltip {
+    background-color: $tooltip;
+    color: white;
+    font-size: 14px;
+    left: 50%;
+    line-height: 16px;
+    max-width: 300px;
+    padding: 8px;
+    position: absolute;
+    bottom: 35px;
+    white-space: nowrap;
+    visibility: hidden;
+    @include border-radius(4px);
+    @include transform(translateX(-50%));
+    &:before {
+        position: absolute;
+        pointer-events: none;
+        border: solid transparent;
+        content: '';
+        height: 0;
+        width: 0;
+        top: 31px;
+        left: 50%;
+        border-color: rgba(28, 172, 226, 0);
+        border-top-color: $tooltip;
+        border-width: 10px;
+        margin-left: -10px;
+    }
+    .is-displaying-tooltip & {
+        visibility: visible;
+    }
+    .is-never-displaying-tooltip {
+        visibility: hidden !important;
+    }
+    @media #{$information-medium} {
+        visibility: hidden !important;
+    }
+    .tooltip-last-wrap & {
+        bottom: auto;
+        top: -42px;
+        z-index: 2;
+    }
+}
+.tooltip-last-wrap {
+    position: relative;
+}

@@ -1,0 +1,27 @@
+
+.slide--2 {
+	.slide__content {
+		@media #{$information-medium} {
+			left: 0;
+			position: absolute;
+			top: 1em;
+			left: 1em;
+		}
+		@media #{$information-large} {
+			left: 0;
+		}
+	}
+	.main-image {
+		width: 241px;
+		height: 268px;
+		@media #{$information-medium} {
+			float: right;
+			height: 402px;
+			width: 361px;
+		}
+		@media #{$information-large} {
+			height: 603px;
+			width: 541.5px;
+		}
+	}
+}

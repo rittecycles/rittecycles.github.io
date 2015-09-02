@@ -1,0 +1,52 @@
+.slide--5 {
+	overflow: hidden;
+	.main-image {
+		height: 277px;
+		left: 50%;
+		max-width: 95%;
+		position: absolute;
+		top: 50%;
+		width: 381px;
+		@include transform(translate(-50%, -50%));
+		@media #{$information-medium} {
+			left: auto;
+			margin: 0 auto;
+			position: static;
+			top: auto;
+			@include transform(translate(0%,0%));
+		}
+		@media #{$information-large} {
+			width: 762px;
+			height: 474px;
+		}
+	}
+	.slide__content {
+		bottom: 1em;
+		left: 50%;
+		position: absolute;
+		text-align: center;
+		z-index: 3;
+		@include transform(translateX(-50%));
+		@media #{$information-large} {
+			position: absolute;
+			max-width: 480px;
+		}
+	}
+	.slide__title {
+		margin-bottom: .5em;
+	}
+}
+.mail-to {
+	background: rgba(255, 255, 255, 0.5);
+  	border: 1px solid rgba(255, 255, 255, 0.65);
+	color: black;
+	cursor: pointer;
+	font-family: $main-font;
+	padding: .25em;
+	&:first-of-type {
+		margin-right: .5em;
+	}
+	&:last-of-type {
+		margin-left: .5em;
+	}
+}

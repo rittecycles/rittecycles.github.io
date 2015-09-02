@@ -1,0 +1,14 @@
+.view-bike {
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.65);;
+  display: inline-block;
+  font-size: .8em;
+  margin: 1em auto 0;
+  outline: none;
+  padding: .5em;
+  text-transform: uppercase;
+  width: 100%;
+  @media #{$information-medium} {
+    width: auto;
+  }
+}

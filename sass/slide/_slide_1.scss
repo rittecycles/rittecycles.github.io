@@ -1,0 +1,19 @@
+.slide--1 {
+	display: block;
+	overflow: hidden;
+	position: relative;
+	&.slide--fade-in {
+		background-color: transparent;
+	}
+	.slide__background {
+		z-index: 1;
+	}
+	[name="slide-one-bg"] {
+		background-size: cover;
+		height: auto;
+		left: 0;
+		margin: auto;
+		position: absolute;
+		top: 0;
+	}
+}
