@@ -1,39 +1,41 @@
 .slide--5 {
-	overflow: hidden;
+	height: auto !important;
+	max-width: none !important;
+	@include micro-clearfix;
+	.slide {
+		&__container {
+			left: auto;
+			margin: 1em auto 6em;
+			position: relative;
+			top: auto;
+			transform: none;
+			@include micro-clearfix;
+		}
+		&__content {
+			left: auto;
+			margin: 2em auto 0;
+			position: static;
+			text-align: center;
+			width: calc(100% - 2em);
+			@media #{$information-large} {
+				max-width: 480px;
+			}
+		}
+		&__title {
+			margin-bottom: .5em;
+		}
+	}
 	.main-image {
 		height: 277px;
-		left: 50%;
 		max-width: 95%;
-		position: absolute;
-		top: 50%;
+		margin: 1em auto;
+		position: relative;
 		width: 381px;
-		@include transform(translate(-50%, -50%));
-		@media #{$information-medium} {
-			left: auto;
-			margin: 0 auto;
-			position: static;
-			top: auto;
-			@include transform(translate(0%,0%));
-		}
+		transform: none !important;
 		@media #{$information-large} {
 			width: 762px;
 			height: 474px;
 		}
-	}
-	.slide__content {
-		bottom: 1em;
-		left: 50%;
-		position: absolute;
-		text-align: center;
-		z-index: 3;
-		@include transform(translateX(-50%));
-		@media #{$information-large} {
-			position: absolute;
-			max-width: 480px;
-		}
-	}
-	.slide__title {
-		margin-bottom: .5em;
 	}
 }
 .mail-to {

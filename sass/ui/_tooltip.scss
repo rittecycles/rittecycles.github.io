@@ -29,12 +29,11 @@
         margin-left: -10px;
     }
     .is-displaying-tooltip & {
-        visibility: visible;
+        @media #{$information-medium} {
+            visibility: visible;
+        }
     }
     .is-never-displaying-tooltip {
-        visibility: hidden !important;
-    }
-    @media #{$information-medium} {
         visibility: hidden !important;
     }
     .tooltip-last-wrap & {

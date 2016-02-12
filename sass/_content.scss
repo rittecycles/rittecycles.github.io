@@ -8,6 +8,7 @@
   margin: 1em;
   padding: .5em;
   position: relative;
+  width: calc(100% - 2em);
   z-index: 2;
   @media #{$information-medium} {
     margin: 1em 0;

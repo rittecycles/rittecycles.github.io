@@ -12,7 +12,7 @@
             // radio input click
             $body.on('click', '.select-form .select-option', function() {
                 var $this = $(this),
-                    $selectOptionInput = $this.find('.select-option-input'),
+                    $selectOptionInput = $this.find('.select-option-input') || $this.find('.select-option-label'),
                     designInputName = $selectOptionInput.attr('name'),
                     designInputVal = $selectOptionInput.val(),
                     $designInputChecked = $('input[name='+designInputName+'][value='+designInputVal+']');
@@ -62,8 +62,8 @@
 
         },
         makeSlideHeight: function() {
-            var $window = $(window),
-                $document = $(document),
+            var $window = $(window);
+            var $document = $(document),
 		        slideHeight = $window.outerHeight(),
 			    slideWidth = $window.outerWidth(),
                 $slide = $document.find('.slide');
@@ -73,7 +73,7 @@
                     mainImageHeight = $mainImage.outerHeight() + 48;
                 if ($(window).width() > 767) {
                     $this.css({
-                        'height': slideHeight > mainImageHeight ? slideHeight : mainImageHeight,
+                        'min-height': slideHeight > mainImageHeight ? slideHeight : mainImageHeight,
                         'max-width': slideWidth
 
                     });
@@ -165,28 +165,6 @@
                 $('#button-up').removeClass('is-visible');
             }
         }
-        // showBackgroundButton: function() {
-        //     if ($('.button__background').addClass('is-visible') {
-
-        //     }
-        // }
-        // socialShare: function(event) {
-        //     event.preventDefault();
-        //     var windowSize = 'height=300,width=400';
-        //     var $this = $(this);
-        //     var pageURL = window.location.href;
-        //     //var dataShareText = $this.attr('data-share-text');
-        //     //var dataShareVia = $this.attr('data-share-via');
-        //     //var dataHashtags = $this.attr('data-hashtags');
-        //     var dataHref = $this.attr('data-href');
-        //     if ($('#page-share-twitter')) {
-        //         var shareURL = dataHref + pageURL;
-        //         window.open(shareURL, windowSize);
-        //     } else if ($('#page-share-facebook')) {
-        //         var shareURL = dataHref + pageURL;
-        //         window.open(shareURL, windowSize);
-        //     }
-        // }
     };
 
 })(jQuery, this, this.document);

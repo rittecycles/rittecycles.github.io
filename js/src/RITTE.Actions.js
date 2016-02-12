@@ -5,9 +5,9 @@
 	$document.ready(function() {
 
 		RITTE.Events.loadColors();
-		RITTE.Events.makeSlideHeight();
 		RITTE.Events.loadEvents();
 		RITTE.Events.backGround();
+		RITTE.Events.makeSlideHeight();
 
 		// save URL for the customer
 		// if ($.cookie('bikeURL') !== undefined) {
@@ -64,7 +64,7 @@
         var $this = $(this);
         if (!$this.parents('.select-option-wrap').hasClass('select-option--is-disabled')) {
             $('.select-show').not(this).siblings().removeClass('is-visible');
-            $this.siblings().toggleClass('is-visible');
+            $this.siblings().not('.tooltip').toggleClass('is-visible');
         }
     });
     $body.on('click', '.mail-to', function () {

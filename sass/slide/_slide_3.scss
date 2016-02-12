@@ -20,13 +20,14 @@
 		height: 277px;
 		@media #{$information-medium} {
 			height: 474px;
-			left: 50%;
+			left: -130px;
 			position: absolute;
 			top: 50%;
 			width: 762px;
-			@include transform(translate(-50%, -50%));
+			@include transform(translateY(-50%));
 		}
 		@media #{$information-large} {
+			left: -200px;
 			width: 1143px;
 			height: 711px;
 		}
