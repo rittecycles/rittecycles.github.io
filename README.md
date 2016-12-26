@@ -1,2 +1,2 @@
 # rittecycles.github.io
-Ritte Ace Custom Painting
+Ritte Ace Custom Bike Painting App
