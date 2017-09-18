@@ -1407,7 +1407,7 @@
 		"sU": 0
 		},
 	"\/bower_components\/font-awesome\/scss\/_animated.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 2,
 		"dS": 1,
@@ -1420,7 +1420,7 @@
 		"uL": 1
 		},
 	"\/bower_components\/font-awesome\/scss\/_bordered-pulled.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 2,
 		"dS": 1,
@@ -1433,7 +1433,7 @@
 		"uL": 1
 		},
 	"\/bower_components\/font-awesome\/scss\/_core.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 2,
 		"dS": 1,
@@ -1446,7 +1446,7 @@
 		"uL": 1
 		},
 	"\/bower_components\/font-awesome\/scss\/_fixed-width.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 2,
 		"dS": 1,
@@ -1459,7 +1459,7 @@
 		"uL": 1
 		},
 	"\/bower_components\/font-awesome\/scss\/_icons.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 2,
 		"dS": 1,
@@ -1472,7 +1472,7 @@
 		"uL": 1
 		},
 	"\/bower_components\/font-awesome\/scss\/_larger.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 2,
 		"dS": 1,
@@ -1485,7 +1485,7 @@
 		"uL": 1
 		},
 	"\/bower_components\/font-awesome\/scss\/_list.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 2,
 		"dS": 1,
@@ -1498,7 +1498,7 @@
 		"uL": 1
 		},
 	"\/bower_components\/font-awesome\/scss\/_mixins.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 2,
 		"dS": 1,
@@ -1511,7 +1511,7 @@
 		"uL": 1
 		},
 	"\/bower_components\/font-awesome\/scss\/_path.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 2,
 		"dS": 1,
@@ -1524,7 +1524,7 @@
 		"uL": 1
 		},
 	"\/bower_components\/font-awesome\/scss\/_rotated-flipped.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 2,
 		"dS": 1,
@@ -1537,7 +1537,7 @@
 		"uL": 1
 		},
 	"\/bower_components\/font-awesome\/scss\/_screen-reader.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 2,
 		"dS": 1,
@@ -1550,7 +1550,7 @@
 		"uL": 1
 		},
 	"\/bower_components\/font-awesome\/scss\/_stacked.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 2,
 		"dS": 1,
@@ -1563,7 +1563,7 @@
 		"uL": 1
 		},
 	"\/bower_components\/font-awesome\/scss\/_variables.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 2,
 		"dS": 1,
@@ -1576,7 +1576,7 @@
 		"uL": 1
 		},
 	"\/bower_components\/font-awesome\/scss\/font-awesome.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 2,
 		"dS": 1,
@@ -6496,7 +6496,7 @@
 		"tS": 0
 		},
 	"\/config.rb": {
-		"ft": 8192,
+		"ft": 131072,
 		"oA": 0,
 		"oAP": "\/config.rb",
 		"oF": 0
@@ -6871,7 +6871,7 @@
 		"uCM": 0
 		},
 	"\/sass\/_base.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 2,
 		"dS": 1,
@@ -6884,7 +6884,7 @@
 		"uL": 1
 		},
 	"\/sass\/_content.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 2,
 		"dS": 1,
@@ -6897,7 +6897,7 @@
 		"uL": 1
 		},
 	"\/sass\/_header.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 2,
 		"dS": 1,
@@ -6910,7 +6910,7 @@
 		"uL": 1
 		},
 	"\/sass\/_icons.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 2,
 		"dS": 1,
@@ -6923,7 +6923,7 @@
 		"uL": 1
 		},
 	"\/sass\/_main-image.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 2,
 		"dS": 1,
@@ -6936,7 +6936,7 @@
 		"uL": 1
 		},
 	"\/sass\/_radio_form.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 2,
 		"dS": 1,
@@ -6949,7 +6949,7 @@
 		"uL": 1
 		},
 	"\/sass\/_slide.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 2,
 		"dS": 1,
@@ -6962,7 +6962,7 @@
 		"uL": 1
 		},
 	"\/sass\/_social.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 2,
 		"dS": 1,
@@ -6975,7 +6975,7 @@
 		"uL": 1
 		},
 	"\/sass\/button\/_background.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 2,
 		"dS": 1,
@@ -6988,7 +6988,7 @@
 		"uL": 1
 		},
 	"\/sass\/button\/_start.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 2,
 		"dS": 1,
@@ -7001,7 +7001,7 @@
 		"uL": 1
 		},
 	"\/sass\/button\/_up.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 2,
 		"dS": 1,
@@ -7014,7 +7014,7 @@
 		"uL": 1
 		},
 	"\/sass\/button\/_view_bike.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 2,
 		"dS": 1,
@@ -7027,7 +7027,7 @@
 		"uL": 1
 		},
 	"\/sass\/fonts\/_font_awesome.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 2,
 		"dS": 1,
@@ -7040,7 +7040,7 @@
 		"uL": 1
 		},
 	"\/sass\/ie.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 2,
 		"dS": 1,
@@ -7053,7 +7053,7 @@
 		"uL": 1
 		},
 	"\/sass\/print.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 2,
 		"dS": 1,
@@ -7066,7 +7066,7 @@
 		"uL": 1
 		},
 	"\/sass\/ritte-ace.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 2,
 		"dS": 1,
@@ -7079,7 +7079,7 @@
 		"uL": 1
 		},
 	"\/sass\/screen.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 2,
 		"dS": 1,
@@ -7092,7 +7092,7 @@
 		"uL": 1
 		},
 	"\/sass\/slide\/_slide_1.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 2,
 		"dS": 1,
@@ -7105,7 +7105,7 @@
 		"uL": 1
 		},
 	"\/sass\/slide\/_slide_2.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 2,
 		"dS": 1,
@@ -7118,7 +7118,7 @@
 		"uL": 1
 		},
 	"\/sass\/slide\/_slide_3.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 2,
 		"dS": 1,
@@ -7131,7 +7131,7 @@
 		"uL": 1
 		},
 	"\/sass\/slide\/_slide_4.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 2,
 		"dS": 1,
@@ -7144,7 +7144,7 @@
 		"uL": 1
 		},
 	"\/sass\/slide\/_slide_5.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 2,
 		"dS": 1,
@@ -7157,7 +7157,7 @@
 		"uL": 1
 		},
 	"\/sass\/slide\/_slide_6.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 2,
 		"dS": 1,
@@ -7170,7 +7170,7 @@
 		"uL": 1
 		},
 	"\/sass\/ui\/_select_background.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 2,
 		"dS": 1,
@@ -7183,7 +7183,7 @@
 		"uL": 1
 		},
 	"\/sass\/ui\/_tooltip.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 2,
 		"dS": 1,
@@ -9110,7 +9110,7 @@
 		"debugStyle": 1,
 		"decimalPrecision": 2,
 		"outputStyle": 3,
-		"shouldRunAutoprefixer": 0,
+		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 1
 		},
