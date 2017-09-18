@@ -16,4 +16,5 @@ assets/js/*.map
 
 # CodeKit
 config.codekit
+config.codekit3
 config.rb
