@@ -1,0 +1,33 @@
+{
+  "name": "y",
+  "homepage": "https://github.com/rittecycles/rittecycles.github.io",
+  "authors": [
+    "Jeff Wainwright <yowainwright@gmail.com>"
+  ],
+  "description": "Ritte Paint",
+  "main": "index.html",
+  "keywords": [
+    "Ritte",
+    "Paint"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "enquire": "~2.1.6",
+    "font-awesome": "~4.7.0",
+    "fullpage": "~2.9.4",
+    "idangerous-swiper": "~3.4.2",
+    "jquery-migrate-official": "~3.0.0",
+    "jquery-waypoints": "~4.0.1",
+    "jquery.bbq": "~1.2.1",
+    "jquery": "~3.2.1",
+    "underscore": "^1.8.3"
+  }
+}
