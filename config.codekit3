@@ -970,6 +970,14 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/bower.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/bower-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/bower_components\/enquire\/.bower.json": {
 		"ft": 524288,
 		"oA": 2,
@@ -6493,6 +6501,26 @@
 		"oAP": "\/config.rb",
 		"oF": 0
 		},
+	"\/css\/ie.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/ie-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/print.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/print-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/css\/ritte-ace.css": {
 		"aP": 1,
 		"bl": 0,
@@ -6500,6 +6528,16 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/css\/ritte-ace-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/screen.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/screen-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -6745,7 +6783,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/js\/min\/ace.min.js",
+		"oAP": "\/js\/ace-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -6755,7 +6793,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/min\/js\/min\/ace-min.min.js",
+		"oAP": "\/js\/min\/ace-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -6765,7 +6803,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/src\/min\/js\/min\/RITTE.Information-min.min.js",
+		"oAP": "\/js\/src\/min\/RITTE.Information-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -6775,7 +6813,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/src\/js\/min\/RITTE.Actions.min.js",
+		"oAP": "\/js\/src\/RITTE.Actions-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -6785,7 +6823,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/src\/js\/min\/RITTE.Events.min.js",
+		"oAP": "\/js\/src\/RITTE.Events-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -6795,7 +6833,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/src\/js\/min\/RITTE.Information.min.js",
+		"oAP": "\/js\/src\/RITTE.Information-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -6805,6 +6843,14 @@
 		"oA": 2,
 		"oAP": "\/LICENSE",
 		"oF": 0
+		},
+	"\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
 		},
 	"\/README.md": {
 		"cS": 0,
@@ -6993,6 +7039,32 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/sass\/ie.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/ie.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/print.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/print.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/sass\/ritte-ace.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -7004,6 +7076,19 @@
 		"oAP": "\/css\/ritte-ace.css",
 		"oF": 0,
 		"oS": 3,
+		"uL": 1
+		},
+	"\/sass\/screen.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/screen.css",
+		"oF": 0,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/sass\/slide\/_slide_1.scss": {
@@ -8919,11 +9004,11 @@
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.min.js",
-		"autoOutputPathRelativePath": "\/js\/min",
+		"autoOutputPathFilenamePattern": "*-min.js",
+		"autoOutputPathRelativePath": "\/min",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 2,
+		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"syntaxCheckerStyle": 1,
@@ -8943,8 +9028,8 @@
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.html",
 		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "",
-		"autoOutputPathReplace2": "",
+		"autoOutputPathReplace1": "kit",
+		"autoOutputPathReplace2": "html",
 		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsLESS": {
@@ -8954,8 +9039,8 @@
 		"autoOutputPathRelativePath": "..\/css",
 		"autoOutputPathReplace1": "less",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 2,
-		"createSourceMap": 0,
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 1,
 		"disableJavascript": 0,
 		"ieCompatibility": 1,
 		"outputStyle": 0,
@@ -8974,7 +9059,7 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"criticStyle": 0,
-		"enableFootnotes": 0,
+		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
 		"escapeLineBreaks": 0,
@@ -9020,12 +9105,12 @@
 		"autoOutputPathRelativePath": "..\/css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 2,
-		"createSourceMap": 1,
-		"debugStyle": 1,
-		"decimalPrecision": 2,
-		"outputStyle": 3,
-		"shouldRunAutoprefixer": 1,
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 1
 		},
@@ -9048,7 +9133,7 @@
 		"autoOutputPathRelativePath": "..\/css",
 		"autoOutputPathReplace1": "stylus",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 2,
+		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"importCSS": 0,
@@ -9072,13 +9157,13 @@
 		"autoOutputPathRelativePath": "\/js",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 2,
+		"autoOutputPathStyle": 0,
 		"createDeclarationFile": 0,
 		"createSourceMap": 0,
 		"jsxMode": 0,
 		"minifyOutput": 0,
 		"moduleResolutionType": 0,
-		"moduleType": 0,
+		"moduleType": 2,
 		"noImplicitAny": 0,
 		"preserveConstEnums": 0,
 		"removeComments": 0,
@@ -9215,7 +9300,7 @@
 			"flagValue": -1
 			},
 		"screw-ie8": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"semicolons": {
